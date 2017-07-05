@@ -1,0 +1,358 @@
+html { margin:0; padding:0;}
+body { margin:0; padding:0; color:#666; font:normal 18px/28px Open Sans, Arial, sans-serif; background:#fff;}
+.clear { clear:both;}
+p { margin:0; padding:0;}
+a { color:#0000ff; text-decoration:underline;}
+a:hover { color:#39A44F;}
+a img { border:none;}
+h1, h2, h3, h4, h5, h6 { margin:0; padding:0; font-weight:bold; color:#000;}
+h1 { padding:10px 0 24px; line-height:1.4em;}
+h2 { padding:0 0 12px;}
+strong { font-weight:bold;}
+em { font-style:italic;}
+form, menu, iframe { display:block; margin:0; padding:0; border:none;}
+ol, ul, dl, li, dt, dd { margin:0; padding:0; list-style:none;}
+* { outline:none;}
+.mainwrapper {min-width:1020px;}
+
+.header_top {
+	background:#37A14C;
+	min-height:45px;
+}
+
+.resize {
+	width:982px;
+	margin:0 auto;
+}
+
+.clearfix:after {
+	content:"";
+	display:block;
+	clear:both;
+}
+
+.header_top p {
+	color:#fff;
+	font-size:16px;
+	line-height:45px;
+	width:330px;
+	float:left;
+}
+
+.header_top li {
+	float:left;
+	list-style:none;
+	padding-left:10px;
+}
+
+.header_top li a {
+	display:block;
+}
+
+.header_top .menu {
+	float:right;
+	padding-top:7px;
+}
+
+.logo_game_one {
+	display:block;
+	float:left;
+	padding-top:7px;
+}
+
+.contact {
+	width:265px;
+	float:left;
+	padding-left:38px;
+}
+
+.contact p {
+	font-size:16px;
+	line-height:24px;
+	color:#0F680E;
+	padding-left:4px;
+}
+
+.contact p a {
+	color:#0F680E;
+	text-decoration:none;
+	font-size:20px;
+	line-height:24px;
+}
+
+.phone_admin {
+	float:right;
+	min-width:175px;
+	font-weight:300;
+}
+
+.contact p .skype_info {
+	padding-left: 31px;
+	font-size:16px;
+	line-height:20px;
+	font-style:italic;
+	color:#2010FF;
+	position:relative;
+}
+
+.contact p .skype_info:before {
+	content:"";
+	display:block;
+	background:url(../images/icon_skype.png);
+	width:19px;
+	height:19px;
+	top:0;
+	left:10px;
+	position:absolute;
+}
+
+.contact .skype {
+	color:black;
+}
+
+.button {
+	width:136px;
+	float:left;
+	padding-top:5px;
+	padding-left:26px;
+}
+
+.button a {
+	display:block;
+	width:136px;
+	height:35px;
+	background: linear-gradient(to top, #FEBA12, #FDD11F);
+	border-radius:4px;
+	text-decoration:none;
+	font-size:16px;
+	line-height:35px;
+	color:#fff;
+	text-align:center;
+	box-shadow:0 2px 0 black;
+}
+
+.first_button {
+	margin-bottom:15px;
+}
+
+.button a:hover {
+	background: linear-gradient(to top, #FDD11F, #FEBA12);
+	color:black;
+}
+
+.header_bottom .logo_game_two {
+	display:block;
+	float:left;
+	padding-top:23px;
+	padding-left:19px;
+}
+
+.header_bottom {
+	padding-top:11px;
+}
+
+nav {
+	min-height:45px;
+	background: linear-gradient(to top, #329546, #45BC5C);
+	border-left:1px solid #57E974;
+	border-right:1px solid #247634;
+}
+nav menu li {
+	list-style:none;
+	float:left;
+	line-height:45px;
+	width:20%;
+	text-align:center;
+	border-left:1px solid #247634;
+	border-right:1px solid #57E974;
+	box-sizing:border-box;
+	font-weight:bold;
+}
+
+nav menu li .active {
+	background: linear-gradient(to top, #2DA045, #46DA62);
+	color:#FEC216;
+	font-weight:800;
+}
+
+nav menu li a {
+	text-decoration:none;
+	display:block;
+	color:#fff;
+}
+
+nav menu {
+	min-height:45px;
+	border-left:1px solid #57E974;
+	border-right:1px solid #247634;
+}
+
+nav menu li a:hover {
+	background: linear-gradient(to top, #2DA045, #46DA62);
+	color:#FEC216;
+	font-weight:800;
+}
+
+.resize aside {
+	padding-top:5px;
+	width: 230px;
+	float:left;
+}
+
+aside menu li a{
+	display:block;
+	text-decoration:none;
+	font-size:20px;
+	line-height:26px;
+	color:black;
+	padding-top:13px;
+	padding-bottom:13px;
+}
+
+aside menu li li a {
+	font-size:16px;
+	line-height:21px;
+	color:red;
+	padding-top:1px;
+	padding-bottom:1px;
+	border:none;	
+	font-family:Lobster;
+}
+
+aside menu li {
+	border-bottom:1px solid #E7E7E7;
+	font-family:Lobster;
+}
+
+aside menu li li{
+	border:none;
+	font-family:Lobster;
+}
+
+aside menu li ul{
+	border:none;
+	padding-bottom:5px;
+	padding-left:20px;
+}
+
+main section article h1 {
+	font-size:24px;
+	line-height:31px;
+	font-family:Scada;
+}
+
+main section article p {
+	font-size:14px;
+	line-height:18px;
+}
+
+main section article{
+	padding-bottom:30px;
+	border-bottom:1px solid #E7E7E7;
+}
+
+main {
+	width:733px;
+}
+
+section figure  {
+	width: 232px;
+	float:left;
+	margin:0;
+	padding-top:30px;
+	padding-right:18.5px;
+}
+
+section .figure_last {
+	padding-right:0;
+}
+
+section figure figcaption {
+	background: linear-gradient(to top,#45BC5C, #309444);
+	min-height: 91px;
+}
+ figure figcaption p {
+	font-size: 14px;
+	line-height: 18px;
+}
+
+section figure figcaption .white_text {
+	color: #fff;
+	padding-left:10px;
+}
+
+section figure figcaption .bold_text {
+	font-weight: bold;
+	color: black;
+	padding-top: 8px;
+	padding-left: 10px;
+}
+
+.resize aside {
+	float:left;
+}
+
+.top-footer .contact .phone_admin {
+	color:black;
+}
+
+.top-footer .contact {
+	float:right;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+.top-footer .connect_game {
+	color:black;
+	float:left;
+	width:390px;
+	font-size: 20px;
+	line-height: 26px;
+	padding-top:15px;
+	color:#fff;
+}
+
+.top-footer p{
+	color:black;
+}
+
+footer {
+	margin-top:30px;
+}
+
+footer .top-footer {
+	background: linear-gradient(to top,#F0B006, #FDC60C);
+	min-height:96px;
+}
+
+ footer .footer_middle {
+	background: linear-gradient(to top,#3D9B50, #45BB5C);
+	min-height:80px;
+}
+ 
+.footer_middle .resize ul li {
+ 	float:left;
+	padding-right:47px;
+	padding-bottom:0;
+}
+
+main {
+	float:right;
+}
+
+.footer_middle .resize ul li {
+	padding-top:10px;
+}
+
+.footer_middle .resize ul .last_li_bottom {
+	padding-right:0;
+}
+
+footer .footer_bottom .resize p {
+	padding-top: 15px;
+  padding-bottom: 15px;
+  color:black;
+  font-size:14px;
+  line-height: 18px;
+  
+}
